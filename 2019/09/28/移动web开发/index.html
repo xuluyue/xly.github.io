@@ -79,13 +79,17 @@
 
 
 
-<meta property="og:type" content="website">
+<meta name="description" content="rem基础：1、rem是一个相对单位，类似于em，em是相对父元素字体大小 2、rem的基准是相对html元素的字体大小 3、例：   em: div{ ​       font-size:12px; } p{p相对父元素字体的大小 ​       width:10em;//12*10=120px; ​       height:10em;//12*10=120px; }…… `//div 是父元">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/09/28/移动web开发/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="rem基础：1、rem是一个相对单位，类似于em，em是相对父元素字体大小 2、rem的基准是相对html元素的字体大小 3、例：   em: div{ ​       font-size:12px; } p{p相对父元素字体的大小 ​       width:10em;//12*10=120px; ​       height:10em;//12*10=120px; }…… `//div 是父元">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-09-28T07:37:32.037Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="rem基础：1、rem是一个相对单位，类似于em，em是相对父元素字体大小 2、rem的基准是相对html元素的字体大小 3、例：   em: div{ ​       font-size:12px; } p{p相对父元素字体的大小 ​       width:10em;//12*10=120px; ​       height:10em;//12*10=120px; }…… `//div 是父元">
 
 
 
@@ -115,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/09/28/移动web开发/">
 
 
 
 
 
-  <title>Hexo</title>
+  <title> | Hexo</title>
   
 
 
@@ -140,8 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,227 +217,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/28/next/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/09/28/next/" itemprop="url">next</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-28T15:39:34+08:00">
-                2019-09-28
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>1、rem是一个相对单位，类似于em，em是相对父元素字体大小</p>
-<p>2、rem的基准是相对html元素的字体大小</p>
-<p>3、例：</p>
-<ul>
-<li><input disabled type="checkbox"> <p>em:</p>
-<p>div{</p>
-<p>​       font-size:12px;</p>
-<p>}</p>
-<p>p{<code>p相对父元素字体的大小</code></p>
-<p>​       width:10em;<code>//12*10=120px;</code></p>
-<p>​       height:10em;<code>//12*10=120px;</code></p>
-<p>}……</p>
-<div>`//div 是父元素`
-
-<p>​             </p><p></p><p></p>
-</div>
-</li>
-<li><p>rem:</p>
-<p>html{</p>
-<p>​       font-size:14px;</p>
-<p>}</p>
-<p>p{<code>//相对HTML里的字体大小</code></p>
-<p>​       height:10rem;<code>14*10=140px;</code></p>
-<p>​       width:10rem;<code>14*10=140px;</code></p>
-<p>}</p>
-</li>
-</ul>
-<h2 id="媒体查询："><a href="#媒体查询：" class="headerlink" title="媒体查询："></a>媒体查询：</h2><h4 id="1、什么是媒体查询？"><a href="#1、什么是媒体查询？" class="headerlink" title="1、什么是媒体查询？"></a>1、什么是媒体查询？</h4><p>媒体查询是css3新语法</p>
-<ul>
-<li>使用媒体查询可以针对不同的媒体类型定义不同的样式（常见的 就是针对屏幕大小的变化而改变不同的css样式）</li>
-<li>@media可以针对不同的屏幕尺寸设置不同的样式</li>
-<li>当你设置浏览器大小的过程中，页面也会根据浏览的宽度和高度重新渲染页面</li>
-<li>主要针对手机、平板等使用媒体查询</li>
-</ul>
-<p><strong>语法规范：</strong></p>
-<p>@media mediatype and|not|only （media fea{</p>
-<p>​      css code;</p>
-<p>}</p>
-<ul>
-<li><p>用media开头</p>
-</li>
-<li><p>mediatype 媒体类型</p>
-<p>常见值有：</p>
-<p>all ：<code>用于所有设备</code></p>
-<p>print ： <code>用于打印机和打印预览</code></p>
-<p>screen  ：<code>用于电脑屏幕，手机，平板等</code></p>
-</li>
-<li><p>关键字and|not|only</p>
-</li>
-<li><p>media feature 必须有小括号</p>
-<p>值：</p>
-<p>width：页面可见区域的宽度</p>
-<p>min-width:页面最小可见宽度</p>
-<p>max-width:页面最大可见区域宽度</p>
-<p>​</p>
-</li>
-</ul>
-<p><strong>例</strong>:</p>
-<p><code>在我们的屏幕上并且最大的宽度是800像素 设置我们想要的样式</code></p>
-<p>@media screen and （max-width：800px）{</p>
-<p>​     background-color:pink;</p>
-<p>}<code>当屏幕的宽度小于等于800像素时，背景颜色时粉色</code></p>
-<p>@media screen and （max-width：500px）{</p>
-<p>​     background-color:blue;</p>
-<p>}``当屏幕的宽度小于等于500像素时，背景颜色时蓝色`</p>
-<h4 id="2、媒体查询-rem实现元素动态大小变化"><a href="#2、媒体查询-rem实现元素动态大小变化" class="headerlink" title="2、媒体查询+rem实现元素动态大小变化"></a>2、媒体查询+rem实现元素动态大小变化</h4><p><code>通过媒体查询，给不同的页面大小设置不同的html字体大小，再通过rem就此改变元素的大小</code></p>
-<p>例：</p>
-<p>@media screen and （min-width：320px）{</p>
-<p>​     html{</p>
-<p>​              font-size:50px;</p>
-<p>​     }</p>
-<p>}<code>//当屏幕大小最小为320px时，html的字体大小为50px</code></p>
-<p>@media screen and （min-width：600px）{</p>
-<p>​     html{</p>
-<p>​              font-size:100px;</p>
-<p>​     }</p>
-<p>}<code>当屏幕大小最小为600px时，html的字体大小为100px</code></p>
-<p>.top{</p>
-<p>height:1rem;</p>
-<p>font-size:0.5rem;</p>
-<p>back….</p>
-<p>text-align:center;</p>
-<p>line-height:1rem;</p>
-<p>}</p>
-<body>
-
-<p>​      <div class="top">购物车</div></p>
-</body>
-
-
-
-<h4 id="3、引入资源"><a href="#3、引入资源" class="headerlink" title="3、引入资源"></a>3、引入资源</h4><p>针对不同的媒体使用不同的css文件(通过link调用css文件)</p>
-<p>例：</p>
-<p>当屏幕大于等于640px以上的时候，让div一行显示两个</p>
-<p>当屏幕下雨640是，让div一行只显示一个</p>
-<link rel href="style.css" media="screen and (min-width:320px)">
-
-<link rel href="styles.css" media="screen and (min-width:640px)">
-
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
 
   
 
@@ -464,9 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/09/28/移动web开发/" itemprop="url">Untitled</a></h1>
+          <h1 class="post-title" itemprop="name headline"></h1>
         
 
         <div class="post-meta">
@@ -516,9 +299,7 @@
       
 
       
-        
-          
-            <h2 id="rem基础："><a href="#rem基础：" class="headerlink" title="rem基础："></a>rem基础：</h2><p>1、rem是一个相对单位，类似于em，em是相对父元素字体大小</p>
+        <h2 id="rem基础："><a href="#rem基础：" class="headerlink" title="rem基础："></a>rem基础：</h2><p>1、rem是一个相对单位，类似于em，em是相对父元素字体大小</p>
 <p>2、rem的基准是相对html元素的字体大小</p>
 <p>3、例：</p>
 <ul>
@@ -623,8 +404,6 @@
 
 <p>​       </p>
 
-          
-        
       
     </div>
     
@@ -641,144 +420,32 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/27/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/09/27/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-27T20:11:52+08:00">
-                2019-09-27
-              </time>
+              <a href="/2019/09/27/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
+              <a href="/2019/09/28/next/" rel="prev" title="next">
+                next <i class="fa fa-chevron-right"></i>
+              </a>
             
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -788,10 +455,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -799,6 +467,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -819,8 +491,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -862,6 +543,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#rem基础："><span class="nav-number">1.</span> <span class="nav-text">rem基础：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#媒体查询："><span class="nav-number">2.</span> <span class="nav-text">媒体查询：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、什么是媒体查询？"><span class="nav-number">2.0.1.</span> <span class="nav-text">1、什么是媒体查询？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、媒体查询-rem实现元素动态大小变化"><span class="nav-number">2.0.2.</span> <span class="nav-text">2、媒体查询+rem实现元素动态大小变化</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、引入资源"><span class="nav-number">2.0.3.</span> <span class="nav-text">3、引入资源</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1002,6 +699,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 

@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="1、rem是一个相对单位，类似于em，em是相对父元素字体大小 2、rem的基准是相对html元素的字体大小 3、例：   em: div{ ​       font-size:12px; } p{p相对父元素字体的大小 ​       width:10em;//12*10=120px; ​       height:10em;//12*10=120px; }…… `//div 是父元素`  ​">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-09-28T07:40:24.364Z">
+<meta property="og:updated_time" content="2019-10-01T18:00:29.648Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="next">
 <meta name="twitter:description" content="1、rem是一个相对单位，类似于em，em是相对父元素字体大小 2、rem的基准是相对html元素的字体大小 3、例：   em: div{ ​       font-size:12px; } p{p相对父元素字体的大小 ​       width:10em;//12*10=120px; ​       height:10em;//12*10=120px; }…… `//div 是父元素`  ​">
@@ -393,10 +393,16 @@
 <h4 id="3、引入资源"><a href="#3、引入资源" class="headerlink" title="3、引入资源"></a>3、引入资源</h4><p>针对不同的媒体使用不同的css文件(通过link调用css文件)</p>
 <p>例：</p>
 <p>当屏幕大于等于640px以上的时候，让div一行显示两个</p>
-<p>当屏幕下雨640是，让div一行只显示一个</p>
+<p>当屏幕小于640是，让div一行只显示一个</p>
 <link rel href="style.css" media="screen and (min-width:320px)">
 
 <link rel href="styles.css" media="screen and (min-width:640px)">
+
+
+
+
+
+
 
 
       
@@ -422,8 +428,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/09/28/移动web开发/" rel="next" title>
-                <i class="fa fa-chevron-left"></i> 
+              <a href="/2019/09/27/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
               </a>
             
           </div>
@@ -431,6 +437,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/09/28/如何/" rel="prev" title="如何用hexo和git搭建自己的博客">
+                如何用hexo和git搭建自己的博客 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
